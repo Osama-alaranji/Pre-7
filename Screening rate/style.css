@@ -22,7 +22,7 @@ html body input:focus {
 }
 html body .container {
     width: 92%;
-    height: 90% auto;
+    height: 600px;
     border: none ;
     position: relative;
     left: 4%;
@@ -33,8 +33,10 @@ html body .container {
     box-shadow: 0 0 10px rgb(85, 85, 85);
 }
 html body .formphoto {
-    
+    width: 68%;
     position: relative;
+    top: -10%;
+    left: 3%;
 }
 html body form {
    
