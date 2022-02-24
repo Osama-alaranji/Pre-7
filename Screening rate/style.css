@@ -22,11 +22,11 @@ html body input:focus {
 }
 html body .container {
     width: 91% ;
-    height: 60% ;
+    height: 55% ;
     border: none ;
     position: relative;
     left: 4%;
-    top: 3% ;
+    top: 4% ;
     border-radius: 12px;
     background-color: white;
     -webkit-box-shadow: 0 0 10px rgb(99, 99, 99);
@@ -42,7 +42,7 @@ html body form {
    
     position: relative;
     left: 3%;
-    top: -2%;
+    top: -48px;
 }
 html body form .subbtn {
     width: 55%;
