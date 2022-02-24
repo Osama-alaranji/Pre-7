@@ -21,8 +21,8 @@ html body input:focus {
    
 }
 html body .container {
-    width: 92%;
-    height: 60% auto;
+    width: 91% ;
+    height: 60% ;
     border: none ;
     position: relative;
     left: 4%;
