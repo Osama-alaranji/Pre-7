@@ -22,11 +22,11 @@ html body input:focus {
 }
 html body .container {
     width: 91% ;
-    height: 610px ;
+    height: 55%;
     border: none ;
     position: relative;
     left: 4%;
-    top: 15px;
+    top: 17px;
     border-radius: 12px;
     background-color: white;
     -webkit-box-shadow: 0 0 10px rgb(99, 99, 99);
@@ -35,7 +35,7 @@ html body .container {
 html body .formphoto {
     width: 68%;
     position: relative;
-    top: -38px;
+    top: -46px;
     left: 3%;
 }
 html body form {
