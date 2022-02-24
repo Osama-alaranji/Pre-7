@@ -22,11 +22,11 @@ html body input:focus {
 }
 html body .container {
     width: 91% ;
-    height: 55% ;
+    height: 610px ;
     border: none ;
     position: relative;
     left: 4%;
-    top: 4% ;
+    top: 15px;
     border-radius: 12px;
     background-color: white;
     -webkit-box-shadow: 0 0 10px rgb(99, 99, 99);
