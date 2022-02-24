@@ -24,18 +24,18 @@ form.onsubmit = function() {
        message = " " + scrate + "%" + " Good, hope you do well in term 2 " ;
    }
    else if (scrate > 70){
-       message = " " + scrate + "%  WTF is this &#x1F620;,<br> you have to pull your socks up in term 2"
-       result.style.height = "38px";
+       message = " " + scrate + "%  WTF is this &#x1F620;,you have to pull your socks up in term 2"
+       result.style.height = "42px";
    }
    else if (scrate > 40){
        message = scrate + "%" + " Are U serious &#128530;,Go and start studying right now , idiot ";
-       result.style.height = "38px";
+       result.style.height = "42px";
 
 
    }
    else {
        message = "Don't worry &#128533;, engineering is good, your rate is " + scrate + "%";
-       result.style.height = "38px";
+       result.style.height = "42px";
 
     }
 
