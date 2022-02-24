@@ -15,9 +15,11 @@ form.onsubmit = function() {
     
     if (scrate > 90 ){
         message = "You are super nerd &#x1F913;, your rate is " + scrate + "%";
+        result.style.height = "42px";
     }
    else if (scrate > 85 ){
     message = "You are nerd &#x1F913;, your rate is " + scrate + "%";
+    result.style.height = "42px";
 
    }
    else if (scrate > 80){
