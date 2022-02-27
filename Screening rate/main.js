@@ -15,11 +15,11 @@ form.onsubmit = function() {
     
     if (scrate > 90 ){
         message = "You are super nerd &#x1F913;, your rate is " + scrate + "%";
-        result.style.height = "42px";
+        
     }
    else if (scrate > 85 ){
     message = "You are nerd &#x1F913;, your rate is " + scrate + "%";
-    result.style.height = "42px";
+    
 
    }
    else if (scrate > 80){
@@ -27,17 +27,17 @@ form.onsubmit = function() {
    }
    else if (scrate > 70){
        message = " " + scrate + "%  WTF is this &#x1F620;,you have to pull your socks up in term 2"
-       result.style.height = "42px";
+       
    }
    else if (scrate > 40){
        message = scrate + "%" + " Are U serious &#128530;,Go and start studying right now , idiot ";
-       result.style.height = "42px";
+       
 
 
    }
    else {
        message = "Don't worry &#128533;, engineering is good, your rate is " + scrate + "%";
-       result.style.height = "42px";
+       
 
     }
 
