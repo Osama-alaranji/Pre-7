@@ -35,8 +35,8 @@ html body input:focus {
 }
 
 html body .container {
-    width: 91% ;
-    height: 55%;
+    width: 150% ;
+    height: 80%;
     border: none ;
     position: relative;
     left: 4%;
@@ -60,7 +60,7 @@ html body form {
 }
 html body form .subbtn {
     width: 55%;
-    outline: none;
+    outline: none !important;
     background-color: #03afdd;
     border-radius: 9px;
     position: relative;
@@ -70,6 +70,7 @@ html body form .subbtn {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     margin-top: 20px;
+    border: none;
 }
 html body .result {
     width : 90%;
@@ -82,6 +83,6 @@ html body .result {
     font-size: large;
 }
 html body input::placeholder {
-    color: #cecece;
+    color: #afafaf;
     font-size:small;
 }
