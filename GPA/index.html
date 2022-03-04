@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator </title>
+    <link rel="icon" href="images/doctor.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#03afdd">
+
+</head>
+<body>
+    <div class="container">
+        <img src="../Screening rate/images/formphoto.png" class="formphoto">
+      <form id="rateCal"> 
+          <!-- physics -->
+         <label for="physics">Physics:</label><br>
+        <input type="number" max="100" min="0" required name="physics" id="physics" class="physics" placeholder="Therotical">
+        <input type="number" min="0" max="30" required name="pphysics" id="pphysics" class="pphysics" placeholder="Practical">
+        <!-- chemistry -->
+        <label for="chemistry">Chemistry:</label><br>
+
+        <input type="number" max="100" min="0" required name="chemistry" id="chemistry"   class="chemistry" placeholder="Therotical">
+        <input type="number" min="0" max="30" required name="pchemistry" id="pchemistry" class="pchemistry" placeholder="Practical">
+      <!-- Biology -->
+        <label for="bio">Biology:</label><br>
+        <input type="number" max="100" min="0" required name="bio" id="bio"  class="bio" placeholder="Therotical">
+        <input type="number" min="0" max="30" required name="pbio" id="pbio" class="pbio" placeholder="Practical"> 
+        <!-- English -->
+        <label for="english">English:</label>
+
+        <input type="number" max="100" min="0" required name="english"  id="english"  class="english" placeholder="Therotical">
+        <!-- History -->
+        <label for="history">History:</label>
+        <input type="number" max="100" min="0" required name="history" id="history" class="history" placeholder="Therotical"> 
+     
+        
+        <p class="result" id="result"></p>
+        <input type="submit" class="subbtn" value="Calculate">
+      </form>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
