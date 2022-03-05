@@ -45,12 +45,7 @@ else {
 let fphysics =  parseInt(physics.value) * 70 / 100 + parseInt(pphysics.value) ;
 let fchemistry = parseInt(chemistry.value) * 70 / 100 + parseInt(pchemistry.value) ;
 let fbiology = parseInt(biology.value) * 70 / 100 + parseInt(pbiology.value) ;
-if(fphysics >= 60){
-    message2 += "" ;
-}
-else {
-    message2 += "Sorry , you failed in physics " + fphysics  + "<br>";
-}
+
 // end GPA 
 if(fchemistry >= 60){
       message2 += "" ;
@@ -63,7 +58,12 @@ if(fchemistry >= 60){
  }
  else {
      message2 += "Sorry , you failed in bio " + fbiology + "<br>"  ;
-
+     if(fphysics >= 60){
+        message2 += "" ;
+    }
+    else {
+        message2 += "Sorry , you failed in physics " + fphysics  + "<br>";
+    }
 
      
  }
