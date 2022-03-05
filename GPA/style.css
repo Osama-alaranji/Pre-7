@@ -17,6 +17,7 @@ html body ,.pchemistry ,.pphysics , .pbio  {
     margin-bottom: 5%;
     margin-left: 2%;
     width: 23%;
+    outline: none;
 }
 html body ,.chemistry ,.physics , .bio  {
     border: none;
@@ -74,7 +75,7 @@ html body form .subbtn {
 }
 html body .result {
     width : 90%;
-    height: 42px;
+    height: auto;
     background-color: #ff6600;
     border: 3px solid rgb(252, 93, 2);
     color: white;
