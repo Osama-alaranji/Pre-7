@@ -87,3 +87,6 @@ html body input::placeholder {
     color: #afafaf;
     font-size:small;
 }
+html body label {
+    margin-bottom: 22px;
+}
